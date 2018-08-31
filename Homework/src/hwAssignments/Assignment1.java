@@ -32,24 +32,24 @@ public class Assignment1
 	public static void main(String[] args)
 	{
 	
-		Scanner user_input = new Scanner(System.in);
-		String name;
-		int height_feet;
-		int height_inches;
-		double height_meters;
+		Scanner user_input = new Scanner(System.in);  //Declares scanner object called user_input
+		String name;  //Declares object of type String called name, uesd to store user's name
+		int height_feet;   //Integer to store height in feet of user
+		int height_inches; //Integer to store height in inches of user
+		double height_meters; //variable of type double used to store the user's height in meters
 		
 		
-		System.out.println("What is your name: ");
-		name = user_input.nextLine();
-		System.out.println("What is your height?");
-		System.out.println("Feet: ");
-		height_feet = user_input.nextInt();
-		System.out.println("Inches: ");
-		height_inches = user_input.nextInt();
+		System.out.println("What is your name: ");  //Prompt for user to enter name
+		name = user_input.nextLine();  // Defines object name as whatever string the user enters next
+		System.out.println("What is your height?");   //Prompt to enter height
+		System.out.println("Feet: ");  //Prompt to enter height in feet
+		height_feet = user_input.nextInt();  //Defines object height_feet as the next integer the user enters
+		System.out.println("Inches: ");  //Prompt to enter height in inches
+		height_inches = user_input.nextInt();  //Defines object height_feet as the next integer the user enters
 		
-		height_meters = ((height_feet*12) + height_inches) * 2.54/100;
+		height_meters = ((height_feet*12) + height_inches) * 2.54/100; // height_meters defined as result of conversion algorithm 
 		
-		System.out.println(name + ", your height in meters is " + height_meters);
+		System.out.println(name + ", your height in meters is " + height_meters); //Prints out final height of user in meters
 		
 		
 	}
