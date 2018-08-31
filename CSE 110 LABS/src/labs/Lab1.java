@@ -27,7 +27,7 @@ public class Lab1
 		int NUM_TESTS = 3; //Assigns the number of tests, which is 3, to a constant
 		double avgScore; //Creates a variable of type double to hold the average of the three tests
 		
-		System.out.println("Enter the score on the first test: "); // Asks user for test score
+		System.out.println("Enter the score on the first test: "); // Asks user for first test score
 		test1 = user_input.nextInt(); // reads the next integer input by the user
 		System.out.println("Enter the score on the second test: "); //Asks user for the second test score
 		test2 = user_input.nextInt();
