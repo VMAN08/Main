@@ -24,7 +24,7 @@ public class Lab1
 		int test1; //Integer to hold test score that user inputs 
 		int test2;
 		int test3;
-		int NUM_TESTS = 3; //Assigns the number of tests, which is 3, to a constant
+		final int NUM_TESTS = 3; //Assigns the number of tests, which is 3, to a constant
 		double avgScore; //Creates a variable of type double to hold the average of the three tests
 		
 		System.out.println("Enter the score on the first test: "); // Asks user for first test score
@@ -34,7 +34,7 @@ public class Lab1
 		System.out.println("Enter the score on the third test: "); //Asks user for the third test score
 		test3 = user_input.nextInt();
 		
-	    avgScore = (test1 + test2 + test3) / (double) NUM_TESTS; //Applies the average to a variable avgScore
+	    avgScore = (test1 + test2 + test3) / (double) NUM_TESTS; //Applies the average to a variable avgScore, and typecasts to double
 		System.out.println("Your average score is: " + avgScore); //Prints out average score
 		
 	
