@@ -47,7 +47,7 @@ public class Assignment1
 		System.out.println("Inches: ");  //Prompt to enter height in inches
 		height_inches = user_input.nextInt();  //Reads input and stores it in height_inches
 		
-		height_meters = ((height_feet*12) + height_inches) * 2.54/100; // height_meters defined as result of conversion algorithm 
+		height_meters = (((height_feet*12) + height_inches) * 2.54)/100; // height_meters defined as result of conversion algorithm 
 		
 		System.out.println(name + ", your height in meters is " + height_meters); //Prints out final height of user in meters
 		
