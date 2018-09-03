@@ -49,8 +49,8 @@ public class Assignment1
 		
 		height_meters = (((height_feet*12) + height_inches) * 2.54)/100; // height_meters defined as result of conversion algorithm 
 		
-		System.out.println(name + ", your height in meters is " + height_meters); //Prints out final height of user in meters
-		
+		System.out.print(name + ", your height in meters is "); //Prints out final height of user in meters
+		System.out.printf("%.2f", height_meters);
 		
 	}
 
