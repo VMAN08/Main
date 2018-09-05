@@ -37,7 +37,9 @@ public class Assignment1
 		int height_feet;   //Integer to store height in feet of user
 		int height_inches; //Integer to store height in inches of user
 		double height_meters; //variable of type double used to store the user's height in meters
-		
+		final int INCH_PER_FOOT = 12;
+		final double METER_CONV = 2.54;
+		final int HUNDRED = 100;
 		
 		System.out.println("What is your name: ");  //Prompt for user to enter name
 		name = user_input.nextLine();  // Defines object name as whatever string the user enters next
@@ -47,7 +49,7 @@ public class Assignment1
 		System.out.println("Inches: ");  //Prompt to enter height in inches
 		height_inches = user_input.nextInt();  //Reads input and stores it in height_inches
 		
-		height_meters = (((height_feet*12) + height_inches) * 2.54)/100; // height_meters defined as result of conversion algorithm 
+		height_meters = (((height_feet*INCH_PER_FOOT) + height_inches) * METER_CONV)/HUNDRED; // height_meters defined as result of conversion algorithm 
 		
 		System.out.print(name + ", your height in meters is "); //Prints out final height of user in meters
 		System.out.printf("%.2f", height_meters);
