@@ -1,4 +1,4 @@
-//package hwAssignments;
+package hwAssignments;
 import java.util.Scanner;
 
 /*
