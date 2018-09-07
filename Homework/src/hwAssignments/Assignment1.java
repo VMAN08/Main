@@ -1,4 +1,4 @@
-package hwAssignments;
+//package hwAssignments;
 import java.util.Scanner;
 
 /*
@@ -8,6 +8,10 @@ import java.util.Scanner;
 // FOR: CSE-110 Assignment 1
 // TIME SPENT: 20 minutes
 */
+//FILENAME: Lab1.java
+//SPECIFICATION: Converts a user's height from imperial units to metric
+//FOR: CSE-110 Assignment 1
+//TIME SPENT: 20 minutes
 
 /*Answers to the Written Exercises
  * 1. The value of mystery will be 2
