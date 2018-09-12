@@ -44,7 +44,7 @@ public class Lab2 { //Public class
 		if ( test1 == test2 ) // if loop using == sign, comparing test1 and test2
 		{
 			
-			System.out.println("String comparison using == sign works"); //Prints out that == sign works, if called upon
+			System.out.println("String comparison usingh == sign works"); //Prints out that == sign works, if called upon
 			
 		}
 		
