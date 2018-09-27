@@ -15,7 +15,7 @@ public class Lab4 {
 	public static void main(String[] args)
 	
 	{
-		
+		int i;
 		int choice;
 		Scanner user_input = new Scanner(System.in);
 		
@@ -28,7 +28,7 @@ public class Lab4 {
 			System.out.println("4) Quit.");
 			choice = user_input.nextInt();
 			
-		} while (choice != 4);
+		
 		
 		
 		
@@ -36,8 +36,22 @@ public class Lab4 {
 		{
 		
 		case 1:
+			int m, sum = 0;
+			i = 1;
+			System.out.println("Enter the number: ");
+			m = user_input.nextInt();
+			while (i<=m) {
+				sum = sum + i;
+				i++;
+						
+			}
+			
+			System.out.println("The sum of the first " + m + " numbers is: " + sum + "\n");
+			
 			break;
 		case 2:
+			int n, facto = 1;
+			
 			break;
 		case 3:
 			break;
@@ -49,7 +63,7 @@ public class Lab4 {
 
 			
 		}
-			
+		} while (choice != 4);			
 		
 	}
 
